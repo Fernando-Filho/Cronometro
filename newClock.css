@@ -1,0 +1,74 @@
+*
+{
+    border: none;
+    margin: none;
+    padding: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titulo
+{
+    text-align: absolute;
+    text-align: center;
+    background-color: blue;
+    opacity: 1;
+}
+.borda
+{
+    position: relative;
+    width: 510px;
+    height: 510px;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    transform: translate(-50%);
+    background-color: rgb(255, 0, 0);
+    opacity: 1;
+}
+.relógio
+{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 5px;
+    left: 5px;
+    transform: translate(0%);
+    border-radius: 50%;
+    background-color: rgb(152, 139, 139);
+    opacity: 1;
+}
+.vertical
+{
+    position: absolute;
+    width: 500px;
+    height: 10px;
+    top: 50%;
+    background-color:  blue;
+}
+.horizontal
+{
+    position: absolute;
+    width: 10px;
+    height: 500px;
+    left: 50%;
+    background-color:  blue;
+}
+/* .tempo
+{
+    position: inherit;
+    top: 50%;
+    left: 50%;
+}
+.esquerda
+{
+    position: relative;
+left: 45%;
+}
+.centro
+{
+    left: 50%;
+}
+.direita
+{
+    position: relative;
+    left: 55%;
+} */
