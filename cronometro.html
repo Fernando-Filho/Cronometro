@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cronometro</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="wrapper">
-        <h1>Deixa que eu conto por você</h1>
-        <p><span id="horas">00</span>:<span id="minutos">00</span>:<span id="seconds">00</span>:<span id="tens">00</span></p>
-        <button class="butão" id="button-start">Start</button>
-        <button class="butão" id="button-stop">Stop</button>
-        <button class="butão" id="button-reset">Reset</button>
-        </div>      
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="relógio">
+      <h1>Deixa que eu conto por você</h1>
+      <div class="tempo">
+        <div class="tempo">
+          <span id="horas">00</span>:<span id="minutos">00</span>:<span id="seconds">00</span>:<span id="milissegundos">00</span>
+        </div>
+        <button class="botão" id="button-start">Start</button>
+        <button class="botão" id="button-stop">Stop</button>
+        <button class="botão" id="button-reset">Reset</button>
+      </div>
+    </div>
 
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
