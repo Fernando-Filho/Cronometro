@@ -4,6 +4,7 @@
     margin: none;
     padding: none;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(240, 231, 231);
 }
 .titulo
 {
@@ -40,35 +41,36 @@
 {
     position: absolute;
     width: 500px;
-    height: 10px;
+    height: 5px;
     top: 50%;
     background-color:  blue;
+    opacity: 0.1;
+
 }
 .horizontal
 {
     position: absolute;
-    width: 10px;
+    width: 5px;
     height: 500px;
     left: 50%;
     background-color:  blue;
+    opacity: 0.1;
 }
-/* .tempo
+.temp
 {
-    position: inherit;
+    position: absolute;
+    width:500px;
+    height: 100px;
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.2);
 }
-.esquerda
+.tempo
 {
     position: relative;
-left: 45%;
+    display: inline;
+    top: 46.6%;
+    left: 41.1%;
+    background-color: rgba(0, 0, 0, 0);
 }
-.centro
-{
-    left: 50%;
-}
-.direita
-{
-    position: relative;
-    left: 55%;
-} */
